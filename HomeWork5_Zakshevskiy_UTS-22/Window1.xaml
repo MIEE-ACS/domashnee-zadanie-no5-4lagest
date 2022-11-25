@@ -1,0 +1,25 @@
+﻿<Window x:Class="HomeWork5_Zakshevskiy_UTS_22.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork5_Zakshevskiy_UTS_22"
+        mc:Ignorable="d"
+        Title="Изменение времени" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/chernobyl2.jpg"/>
+        </Grid.Background>
+        <Button x:Name="BtAdd" Content="Изменить" HorizontalAlignment="Left" Margin="119,0,0,48" VerticalAlignment="Bottom" Height="41" Width="82" Click="BtAdd_Click"/>
+        <Button x:Name="BtCancel" Content="Отменить" HorizontalAlignment="Right" Margin="0,0,107,43" VerticalAlignment="Bottom" Height="41" Width="82" Click="BtCancel_Click"/>
+        <TextBox x:Name="TbNumber" HorizontalAlignment="Left" Margin="122,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79" Height="33"/>
+        <TextBox x:Name="TbHour" HorizontalAlignment="Left" Margin="285,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79" Height="33"/>
+        <TextBox x:Name="TbMinute" HorizontalAlignment="Left" Margin="454,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79" Height="33"/>
+        <TextBox x:Name="TbSecond" HorizontalAlignment="Left" Margin="611,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79" Height="33"/>
+        <Label Content="Введите номер:" HorizontalAlignment="Left" Margin="112,143,0,0" VerticalAlignment="Top" Width="100" Foreground="WhiteSmoke"/>
+        <Label Content="Введите час:" HorizontalAlignment="Left" Margin="285,143,0,0" VerticalAlignment="Top" Width="79" Foreground="#FFFBFBFB"/>
+        <Label Content="Введите минуту:" HorizontalAlignment="Left" Margin="444,148,0,0" VerticalAlignment="Top" Width="100" Foreground="White"/>
+        <Label Content="Введите секунду:" HorizontalAlignment="Left" Margin="598,148,0,0" VerticalAlignment="Top" Width="105" Foreground="White"/>
+
+    </Grid>
+</Window>

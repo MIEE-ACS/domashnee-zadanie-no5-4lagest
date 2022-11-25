@@ -1,0 +1,25 @@
+﻿<Window x:Class="HomeWork5_Zakshevskiy_UTS_22.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork5_Zakshevskiy_UTS_22"
+        mc:Ignorable="d"
+        Title="Закшевский Родион, УТС-22. Вариант 5" Height="450" Width="800">
+    <Grid x:Name="Ground">
+        <Grid.Background>
+            <ImageBrush ImageSource="/chernobyl2.jpg"/>
+        </Grid.Background>
+        <Button x:Name="Bt_1" Content="Добавить" HorizontalAlignment="Left" Margin="118,0,0,31" VerticalAlignment="Bottom" Height="36" Width="76" Background="#FF584A4A" Foreground="White" Click="Bt_1_Click"/>
+        <Button x:Name="Bt_2" Content="Изменить" HorizontalAlignment="Right" Margin="0,0,124,31" VerticalAlignment="Bottom" Width="76" Height="36" Background="#FF584A4A" Foreground="White" Click="Bt_2_Click"/>
+        <Label Content="Список:" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" Height="33" Width="110" FontSize="25" FontFamily="Times New Roman" Foreground="#FFFBF7F7" FontWeight="Bold" FontStyle="Normal" Background="#FF584A4A"/>
+        <Label Content="№" HorizontalAlignment="Left" Margin="50,86,0,0" VerticalAlignment="Top" Height="34" Width="40" FontSize="18" FontFamily="Times New Roman" Foreground="#FFFBF7F7" FontWeight="Bold" FontStyle="Normal" Background="#FF584A4A"/>
+        <Label Content="Час" HorizontalAlignment="Left" Margin="175,86,0,0" VerticalAlignment="Top" Height="34" Width="45" FontSize="18" FontFamily="Times New Roman" Foreground="#FFFBF7F7" FontWeight="Bold" FontStyle="Normal" Background="#FF584A4A"/>
+        <Label Content="Минута" HorizontalAlignment="Left" Margin="292,86,0,0" VerticalAlignment="Top" Height="34" Width="78" FontSize="18" FontFamily="Times New Roman" Foreground="#FFFBF7F7" FontWeight="Bold" FontStyle="Normal" Background="#FF584A4A"/>
+        <Label Content="Секунда" HorizontalAlignment="Left" Margin="425,86,0,0" VerticalAlignment="Top" Height="34" Width="78" FontSize="18" FontFamily="Times New Roman" Foreground="#FFFBF7F7" FontWeight="Bold" FontStyle="Normal" Background="#FF584A4A"/>
+        <Label x:Name="Lb_Number" Content="" HorizontalAlignment="Left" Margin="50,125,0,0" VerticalAlignment="Top" Height="223" Width="40" FontSize="16" Foreground="White"/>
+        <Label x:Name="Lb_Hour" Content="" HorizontalAlignment="Left" Margin="175,125,0,0" VerticalAlignment="Top" Height="223" Width="45" FontSize="16" Foreground="White"/>
+        <Label x:Name="Lb_Minute" Content="" HorizontalAlignment="Left" Margin="310,125,0,0" VerticalAlignment="Top" Height="223" Width="42" FontSize="16" Foreground="White"/>
+        <Label x:Name="Lb_Second" Content="" HorizontalAlignment="Left" Margin="444,125,0,0" VerticalAlignment="Top" Height="223" Width="40" Foreground="White" FontSize="16"/>
+    </Grid>
+</Window>
